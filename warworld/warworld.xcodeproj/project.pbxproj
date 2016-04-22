@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF54E4D31CCA097A00E63DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E4D21CCA097A00E63DD0 /* AppDelegate.swift */; };
+		BF54E4D51CCA097A00E63DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E4D41CCA097A00E63DD0 /* ViewController.swift */; };
+		BF54E4D81CCA097A00E63DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4D61CCA097A00E63DD0 /* Main.storyboard */; };
+		BF54E4DA1CCA097A00E63DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4D91CCA097A00E63DD0 /* Assets.xcassets */; };
+		BF54E4DD1CCA097A00E63DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4DB1CCA097A00E63DD0 /* LaunchScreen.storyboard */; };
+		BF54E5131CCA09A800E63DD0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4E41CCA09A800E63DD0 /* 1.png */; };
+		BF54E5141CCA09A800E63DD0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4E51CCA09A800E63DD0 /* 2.png */; };
+		BF54E5151CCA09A800E63DD0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4E61CCA09A800E63DD0 /* 3.png */; };
+		BF54E5161CCA09A800E63DD0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4E71CCA09A800E63DD0 /* 4.png */; };
+		BF54E5171CCA09A800E63DD0 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4E81CCA09A800E63DD0 /* 5.png */; };
+		BF54E5181CCA09A800E63DD0 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4E91CCA09A800E63DD0 /* 6.png */; };
+		BF54E5191CCA09A800E63DD0 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4EA1CCA09A800E63DD0 /* 7.png */; };
+		BF54E51A1CCA09A800E63DD0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4EB1CCA09A800E63DD0 /* 8.png */; };
+		BF54E51B1CCA09A800E63DD0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4EC1CCA09A800E63DD0 /* 9.png */; };
+		BF54E51C1CCA09A800E63DD0 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4ED1CCA09A800E63DD0 /* 10.png */; };
+		BF54E51D1CCA09A800E63DD0 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4EE1CCA09A800E63DD0 /* 11.png */; };
+		BF54E51E1CCA09A800E63DD0 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4EF1CCA09A800E63DD0 /* 12.png */; };
+		BF54E51F1CCA09A800E63DD0 /* 表横条.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F01CCA09A800E63DD0 /* 表横条.png */; };
+		BF54E5201CCA09A800E63DD0 /* 表右边.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F11CCA09A800E63DD0 /* 表右边.png */; };
+		BF54E5211CCA09A800E63DD0 /* 表右边@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F21CCA09A800E63DD0 /* 表右边@2x.png */; };
+		BF54E5221CCA09A800E63DD0 /* 表左边.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F31CCA09A800E63DD0 /* 表左边.png */; };
+		BF54E5231CCA09A800E63DD0 /* 表左边@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F41CCA09A800E63DD0 /* 表左边@2x.png */; };
+		BF54E5241CCA09A800E63DD0 /* 答错@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F51CCA09A800E63DD0 /* 答错@2x.png */; };
+		BF54E5251CCA09A800E63DD0 /* 答对@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F61CCA09A800E63DD0 /* 答对@2x.png */; };
+		BF54E5261CCA09A800E63DD0 /* 第1季@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F71CCA09A800E63DD0 /* 第1季@2x.png */; };
+		BF54E5271CCA09A800E63DD0 /* 第2季@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F81CCA09A800E63DD0 /* 第2季@2x.png */; };
+		BF54E5281CCA09A800E63DD0 /* 第3季@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4F91CCA09A800E63DD0 /* 第3季@2x.png */; };
+		BF54E5291CCA09A800E63DD0 /* 第4季@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4FA1CCA09A800E63DD0 /* 第4季@2x.png */; };
+		BF54E52A1CCA09A800E63DD0 /* 第5季@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4FB1CCA09A800E63DD0 /* 第5季@2x.png */; };
+		BF54E52B1CCA09A800E63DD0 /* 第6季@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4FC1CCA09A800E63DD0 /* 第6季@2x.png */; };
+		BF54E52C1CCA09A800E63DD0 /* 对战背景05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4FD1CCA09A800E63DD0 /* 对战背景05@2x.png */; };
+		BF54E52D1CCA09A800E63DD0 /* 对战头像.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4FE1CCA09A800E63DD0 /* 对战头像.png */; };
+		BF54E52E1CCA09A800E63DD0 /* 更新标记@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E4FF1CCA09A800E63DD0 /* 更新标记@2x.png */; };
+		BF54E52F1CCA09A800E63DD0 /* 平时状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5001CCA09A800E63DD0 /* 平时状态@2x.png */; };
+		BF54E5301CCA09A800E63DD0 /* 平时状态点中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5011CCA09A800E63DD0 /* 平时状态点中@2x.png */; };
+		BF54E5311CCA09A800E63DD0 /* 一战到底暗.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5021CCA09A800E63DD0 /* 一战到底暗.png */; };
+		BF54E5321CCA09A800E63DD0 /* 一战到底亮.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5031CCA09A800E63DD0 /* 一战到底亮.png */; };
+		BF54E5331CCA09A800E63DD0 /* 月份背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5041CCA09A800E63DD0 /* 月份背景.jpg */; };
+		BF54E5341CCA09A800E63DD0 /* 战报背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5051CCA09A800E63DD0 /* 战报背景@2x.png */; };
+		BF54E5351CCA09A800E63DD0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5061CCA09A800E63DD0 /* Default@2x.png */; };
+		BF54E5361CCA09A800E63DD0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5071CCA09A800E63DD0 /* icon.png */; };
+		BF54E5371CCA09A800E63DD0 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5081CCA09A800E63DD0 /* left_arrow.png */; };
+		BF54E5381CCA09A800E63DD0 /* Loadingold.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5091CCA09A800E63DD0 /* Loadingold.png */; };
+		BF54E5391CCA09A800E63DD0 /* mainBackGroud.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E50A1CCA09A800E63DD0 /* mainBackGroud.png */; };
+		BF54E53A1CCA09A800E63DD0 /* mainTag.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E50B1CCA09A800E63DD0 /* mainTag.png */; };
+		BF54E53B1CCA09A800E63DD0 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E50C1CCA09A800E63DD0 /* right_arrow.png */; };
+		BF54E53C1CCA09A800E63DD0 /* shop_light.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E50D1CCA09A800E63DD0 /* shop_light.png */; };
+		BF54E53D1CCA09A800E63DD0 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E50E1CCA09A800E63DD0 /* shop.png */; };
+		BF54E53E1CCA09A800E63DD0 /* suo_ding.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E50F1CCA09A800E63DD0 /* suo_ding.png */; };
+		BF54E53F1CCA09A800E63DD0 /* suo_kai.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5101CCA09A800E63DD0 /* suo_kai.png */; };
+		BF54E5401CCA09A800E63DD0 /* tiku_light.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5111CCA09A800E63DD0 /* tiku_light.png */; };
+		BF54E5411CCA09A800E63DD0 /* tiku.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5121CCA09A800E63DD0 /* tiku.png */; };
+		BF54E5431CCA139700E63DD0 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E5421CCA139700E63DD0 /* ChooseViewController.swift */; };
+		BF54E5451CCA172500E63DD0 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E5441CCA172500E63DD0 /* AnswerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF54E4CF1CCA097A00E63DD0 /* warworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF54E4D21CCA097A00E63DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF54E4D41CCA097A00E63DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF54E4D71CCA097A00E63DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF54E4D91CCA097A00E63DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF54E4DC1CCA097A00E63DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF54E4DE1CCA097A00E63DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF54E4E41CCA09A800E63DD0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../../Downloads/warworld/warworld/1.png; sourceTree = "<group>"; };
+		BF54E4E51CCA09A800E63DD0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../../Downloads/warworld/warworld/2.png; sourceTree = "<group>"; };
+		BF54E4E61CCA09A800E63DD0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../../../Downloads/warworld/warworld/3.png; sourceTree = "<group>"; };
+		BF54E4E71CCA09A800E63DD0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../../../Downloads/warworld/warworld/4.png; sourceTree = "<group>"; };
+		BF54E4E81CCA09A800E63DD0 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../../../Downloads/warworld/warworld/5.png; sourceTree = "<group>"; };
+		BF54E4E91CCA09A800E63DD0 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = ../../../../../Downloads/warworld/warworld/6.png; sourceTree = "<group>"; };
+		BF54E4EA1CCA09A800E63DD0 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = ../../../../../Downloads/warworld/warworld/7.png; sourceTree = "<group>"; };
+		BF54E4EB1CCA09A800E63DD0 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = ../../../../../Downloads/warworld/warworld/8.png; sourceTree = "<group>"; };
+		BF54E4EC1CCA09A800E63DD0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = ../../../../../Downloads/warworld/warworld/9.png; sourceTree = "<group>"; };
+		BF54E4ED1CCA09A800E63DD0 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.png; path = ../../../../../Downloads/warworld/warworld/10.png; sourceTree = "<group>"; };
+		BF54E4EE1CCA09A800E63DD0 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.png; path = ../../../../../Downloads/warworld/warworld/11.png; sourceTree = "<group>"; };
+		BF54E4EF1CCA09A800E63DD0 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12.png; path = ../../../../../Downloads/warworld/warworld/12.png; sourceTree = "<group>"; };
+		BF54E4F01CCA09A800E63DD0 /* 表横条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "表横条.png"; path = "../../../../../Downloads/warworld/warworld/表横条.png"; sourceTree = "<group>"; };
+		BF54E4F11CCA09A800E63DD0 /* 表右边.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "表右边.png"; path = "../../../../../Downloads/warworld/warworld/表右边.png"; sourceTree = "<group>"; };
+		BF54E4F21CCA09A800E63DD0 /* 表右边@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "表右边@2x.png"; path = "../../../../../Downloads/warworld/warworld/表右边@2x.png"; sourceTree = "<group>"; };
+		BF54E4F31CCA09A800E63DD0 /* 表左边.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "表左边.png"; path = "../../../../../Downloads/warworld/warworld/表左边.png"; sourceTree = "<group>"; };
+		BF54E4F41CCA09A800E63DD0 /* 表左边@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "表左边@2x.png"; path = "../../../../../Downloads/warworld/warworld/表左边@2x.png"; sourceTree = "<group>"; };
+		BF54E4F51CCA09A800E63DD0 /* 答错@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "答错@2x.png"; path = "../../../../../Downloads/warworld/warworld/答错@2x.png"; sourceTree = "<group>"; };
+		BF54E4F61CCA09A800E63DD0 /* 答对@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "答对@2x.png"; path = "../../../../../Downloads/warworld/warworld/答对@2x.png"; sourceTree = "<group>"; };
+		BF54E4F71CCA09A800E63DD0 /* 第1季@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "第1季@2x.png"; path = "../../../../../Downloads/warworld/warworld/第1季@2x.png"; sourceTree = "<group>"; };
+		BF54E4F81CCA09A800E63DD0 /* 第2季@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "第2季@2x.png"; path = "../../../../../Downloads/warworld/warworld/第2季@2x.png"; sourceTree = "<group>"; };
+		BF54E4F91CCA09A800E63DD0 /* 第3季@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "第3季@2x.png"; path = "../../../../../Downloads/warworld/warworld/第3季@2x.png"; sourceTree = "<group>"; };
+		BF54E4FA1CCA09A800E63DD0 /* 第4季@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "第4季@2x.png"; path = "../../../../../Downloads/warworld/warworld/第4季@2x.png"; sourceTree = "<group>"; };
+		BF54E4FB1CCA09A800E63DD0 /* 第5季@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "第5季@2x.png"; path = "../../../../../Downloads/warworld/warworld/第5季@2x.png"; sourceTree = "<group>"; };
+		BF54E4FC1CCA09A800E63DD0 /* 第6季@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "第6季@2x.png"; path = "../../../../../Downloads/warworld/warworld/第6季@2x.png"; sourceTree = "<group>"; };
+		BF54E4FD1CCA09A800E63DD0 /* 对战背景05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "对战背景05@2x.png"; path = "../../../../../Downloads/warworld/warworld/对战背景05@2x.png"; sourceTree = "<group>"; };
+		BF54E4FE1CCA09A800E63DD0 /* 对战头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "对战头像.png"; path = "../../../../../Downloads/warworld/warworld/对战头像.png"; sourceTree = "<group>"; };
+		BF54E4FF1CCA09A800E63DD0 /* 更新标记@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "更新标记@2x.png"; path = "../../../../../Downloads/warworld/warworld/更新标记@2x.png"; sourceTree = "<group>"; };
+		BF54E5001CCA09A800E63DD0 /* 平时状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "平时状态@2x.png"; path = "../../../../../Downloads/warworld/warworld/平时状态@2x.png"; sourceTree = "<group>"; };
+		BF54E5011CCA09A800E63DD0 /* 平时状态点中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "平时状态点中@2x.png"; path = "../../../../../Downloads/warworld/warworld/平时状态点中@2x.png"; sourceTree = "<group>"; };
+		BF54E5021CCA09A800E63DD0 /* 一战到底暗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "一战到底暗.png"; path = "../../../../../Downloads/warworld/warworld/一战到底暗.png"; sourceTree = "<group>"; };
+		BF54E5031CCA09A800E63DD0 /* 一战到底亮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "一战到底亮.png"; path = "../../../../../Downloads/warworld/warworld/一战到底亮.png"; sourceTree = "<group>"; };
+		BF54E5041CCA09A800E63DD0 /* 月份背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "月份背景.jpg"; path = "../../../../../Downloads/warworld/warworld/月份背景.jpg"; sourceTree = "<group>"; };
+		BF54E5051CCA09A800E63DD0 /* 战报背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "战报背景@2x.png"; path = "../../../../../Downloads/warworld/warworld/战报背景@2x.png"; sourceTree = "<group>"; };
+		BF54E5061CCA09A800E63DD0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../../../Downloads/warworld/warworld/Default@2x.png"; sourceTree = "<group>"; };
+		BF54E5071CCA09A800E63DD0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../../Downloads/warworld/warworld/icon.png; sourceTree = "<group>"; };
+		BF54E5081CCA09A800E63DD0 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_arrow.png; path = ../../../../../Downloads/warworld/warworld/left_arrow.png; sourceTree = "<group>"; };
+		BF54E5091CCA09A800E63DD0 /* Loadingold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Loadingold.png; path = ../../../../../Downloads/warworld/warworld/Loadingold.png; sourceTree = "<group>"; };
+		BF54E50A1CCA09A800E63DD0 /* mainBackGroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainBackGroud.png; path = ../../../../../Downloads/warworld/warworld/mainBackGroud.png; sourceTree = "<group>"; };
+		BF54E50B1CCA09A800E63DD0 /* mainTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainTag.png; path = ../../../../../Downloads/warworld/warworld/mainTag.png; sourceTree = "<group>"; };
+		BF54E50C1CCA09A800E63DD0 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right_arrow.png; path = ../../../../../Downloads/warworld/warworld/right_arrow.png; sourceTree = "<group>"; };
+		BF54E50D1CCA09A800E63DD0 /* shop_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shop_light.png; path = ../../../../../Downloads/warworld/warworld/shop_light.png; sourceTree = "<group>"; };
+		BF54E50E1CCA09A800E63DD0 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shop.png; path = ../../../../../Downloads/warworld/warworld/shop.png; sourceTree = "<group>"; };
+		BF54E50F1CCA09A800E63DD0 /* suo_ding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suo_ding.png; path = ../../../../../Downloads/warworld/warworld/suo_ding.png; sourceTree = "<group>"; };
+		BF54E5101CCA09A800E63DD0 /* suo_kai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suo_kai.png; path = ../../../../../Downloads/warworld/warworld/suo_kai.png; sourceTree = "<group>"; };
+		BF54E5111CCA09A800E63DD0 /* tiku_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiku_light.png; path = ../../../../../Downloads/warworld/warworld/tiku_light.png; sourceTree = "<group>"; };
+		BF54E5121CCA09A800E63DD0 /* tiku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiku.png; path = ../../../../../Downloads/warworld/warworld/tiku.png; sourceTree = "<group>"; };
+		BF54E5421CCA139700E63DD0 /* ChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		BF54E5441CCA172500E63DD0 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF54E4CC1CCA097A00E63DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF54E4C61CCA097A00E63DD0 = {
+			isa = PBXGroup;
+			children = (
+				BF54E4D11CCA097A00E63DD0 /* warworld */,
+				BF54E4D01CCA097A00E63DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF54E4D01CCA097A00E63DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF54E4CF1CCA097A00E63DD0 /* warworld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF54E4D11CCA097A00E63DD0 /* warworld */ = {
+			isa = PBXGroup;
+			children = (
+				BF54E4D21CCA097A00E63DD0 /* AppDelegate.swift */,
+				BF54E4D41CCA097A00E63DD0 /* ViewController.swift */,
+				BF54E5421CCA139700E63DD0 /* ChooseViewController.swift */,
+				BF54E5441CCA172500E63DD0 /* AnswerViewController.swift */,
+				BF54E4D61CCA097A00E63DD0 /* Main.storyboard */,
+				BF54E4D91CCA097A00E63DD0 /* Assets.xcassets */,
+				BF54E4E41CCA09A800E63DD0 /* 1.png */,
+				BF54E4E51CCA09A800E63DD0 /* 2.png */,
+				BF54E4E61CCA09A800E63DD0 /* 3.png */,
+				BF54E4E71CCA09A800E63DD0 /* 4.png */,
+				BF54E4E81CCA09A800E63DD0 /* 5.png */,
+				BF54E4E91CCA09A800E63DD0 /* 6.png */,
+				BF54E4EA1CCA09A800E63DD0 /* 7.png */,
+				BF54E4EB1CCA09A800E63DD0 /* 8.png */,
+				BF54E4EC1CCA09A800E63DD0 /* 9.png */,
+				BF54E4ED1CCA09A800E63DD0 /* 10.png */,
+				BF54E4EE1CCA09A800E63DD0 /* 11.png */,
+				BF54E4EF1CCA09A800E63DD0 /* 12.png */,
+				BF54E4F01CCA09A800E63DD0 /* 表横条.png */,
+				BF54E4F11CCA09A800E63DD0 /* 表右边.png */,
+				BF54E4F21CCA09A800E63DD0 /* 表右边@2x.png */,
+				BF54E4F31CCA09A800E63DD0 /* 表左边.png */,
+				BF54E4F41CCA09A800E63DD0 /* 表左边@2x.png */,
+				BF54E4F51CCA09A800E63DD0 /* 答错@2x.png */,
+				BF54E4F61CCA09A800E63DD0 /* 答对@2x.png */,
+				BF54E4F71CCA09A800E63DD0 /* 第1季@2x.png */,
+				BF54E4F81CCA09A800E63DD0 /* 第2季@2x.png */,
+				BF54E4F91CCA09A800E63DD0 /* 第3季@2x.png */,
+				BF54E4FA1CCA09A800E63DD0 /* 第4季@2x.png */,
+				BF54E4FB1CCA09A800E63DD0 /* 第5季@2x.png */,
+				BF54E4FC1CCA09A800E63DD0 /* 第6季@2x.png */,
+				BF54E4FD1CCA09A800E63DD0 /* 对战背景05@2x.png */,
+				BF54E4FE1CCA09A800E63DD0 /* 对战头像.png */,
+				BF54E4FF1CCA09A800E63DD0 /* 更新标记@2x.png */,
+				BF54E5001CCA09A800E63DD0 /* 平时状态@2x.png */,
+				BF54E5011CCA09A800E63DD0 /* 平时状态点中@2x.png */,
+				BF54E5021CCA09A800E63DD0 /* 一战到底暗.png */,
+				BF54E5031CCA09A800E63DD0 /* 一战到底亮.png */,
+				BF54E5041CCA09A800E63DD0 /* 月份背景.jpg */,
+				BF54E5051CCA09A800E63DD0 /* 战报背景@2x.png */,
+				BF54E5061CCA09A800E63DD0 /* Default@2x.png */,
+				BF54E5071CCA09A800E63DD0 /* icon.png */,
+				BF54E5081CCA09A800E63DD0 /* left_arrow.png */,
+				BF54E5091CCA09A800E63DD0 /* Loadingold.png */,
+				BF54E50A1CCA09A800E63DD0 /* mainBackGroud.png */,
+				BF54E50B1CCA09A800E63DD0 /* mainTag.png */,
+				BF54E50C1CCA09A800E63DD0 /* right_arrow.png */,
+				BF54E50D1CCA09A800E63DD0 /* shop_light.png */,
+				BF54E50E1CCA09A800E63DD0 /* shop.png */,
+				BF54E50F1CCA09A800E63DD0 /* suo_ding.png */,
+				BF54E5101CCA09A800E63DD0 /* suo_kai.png */,
+				BF54E5111CCA09A800E63DD0 /* tiku_light.png */,
+				BF54E5121CCA09A800E63DD0 /* tiku.png */,
+				BF54E4DB1CCA097A00E63DD0 /* LaunchScreen.storyboard */,
+				BF54E4DE1CCA097A00E63DD0 /* Info.plist */,
+			);
+			path = warworld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF54E4CE1CCA097A00E63DD0 /* warworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF54E4E11CCA097A00E63DD0 /* Build configuration list for PBXNativeTarget "warworld" */;
+			buildPhases = (
+				BF54E4CB1CCA097A00E63DD0 /* Sources */,
+				BF54E4CC1CCA097A00E63DD0 /* Frameworks */,
+				BF54E4CD1CCA097A00E63DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = warworld;
+			productName = warworld;
+			productReference = BF54E4CF1CCA097A00E63DD0 /* warworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF54E4C71CCA097A00E63DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tracy;
+				TargetAttributes = {
+					BF54E4CE1CCA097A00E63DD0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BF54E4CA1CCA097A00E63DD0 /* Build configuration list for PBXProject "warworld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF54E4C61CCA097A00E63DD0;
+			productRefGroup = BF54E4D01CCA097A00E63DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF54E4CE1CCA097A00E63DD0 /* warworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF54E4CD1CCA097A00E63DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54E51E1CCA09A800E63DD0 /* 12.png in Resources */,
+				BF54E51C1CCA09A800E63DD0 /* 10.png in Resources */,
+				BF54E53B1CCA09A800E63DD0 /* right_arrow.png in Resources */,
+				BF54E5301CCA09A800E63DD0 /* 平时状态点中@2x.png in Resources */,
+				BF54E5231CCA09A800E63DD0 /* 表左边@2x.png in Resources */,
+				BF54E51A1CCA09A800E63DD0 /* 8.png in Resources */,
+				BF54E5411CCA09A800E63DD0 /* tiku.png in Resources */,
+				BF54E5261CCA09A800E63DD0 /* 第1季@2x.png in Resources */,
+				BF54E4DD1CCA097A00E63DD0 /* LaunchScreen.storyboard in Resources */,
+				BF54E5391CCA09A800E63DD0 /* mainBackGroud.png in Resources */,
+				BF54E5321CCA09A800E63DD0 /* 一战到底亮.png in Resources */,
+				BF54E5161CCA09A800E63DD0 /* 4.png in Resources */,
+				BF54E53D1CCA09A800E63DD0 /* shop.png in Resources */,
+				BF54E5381CCA09A800E63DD0 /* Loadingold.png in Resources */,
+				BF54E53E1CCA09A800E63DD0 /* suo_ding.png in Resources */,
+				BF54E5311CCA09A800E63DD0 /* 一战到底暗.png in Resources */,
+				BF54E5131CCA09A800E63DD0 /* 1.png in Resources */,
+				BF54E52F1CCA09A800E63DD0 /* 平时状态@2x.png in Resources */,
+				BF54E53A1CCA09A800E63DD0 /* mainTag.png in Resources */,
+				BF54E5271CCA09A800E63DD0 /* 第2季@2x.png in Resources */,
+				BF54E51D1CCA09A800E63DD0 /* 11.png in Resources */,
+				BF54E5181CCA09A800E63DD0 /* 6.png in Resources */,
+				BF54E52D1CCA09A800E63DD0 /* 对战头像.png in Resources */,
+				BF54E5351CCA09A800E63DD0 /* Default@2x.png in Resources */,
+				BF54E5251CCA09A800E63DD0 /* 答对@2x.png in Resources */,
+				BF54E5141CCA09A800E63DD0 /* 2.png in Resources */,
+				BF54E5201CCA09A800E63DD0 /* 表右边.png in Resources */,
+				BF54E5151CCA09A800E63DD0 /* 3.png in Resources */,
+				BF54E5241CCA09A800E63DD0 /* 答错@2x.png in Resources */,
+				BF54E52B1CCA09A800E63DD0 /* 第6季@2x.png in Resources */,
+				BF54E5401CCA09A800E63DD0 /* tiku_light.png in Resources */,
+				BF54E5341CCA09A800E63DD0 /* 战报背景@2x.png in Resources */,
+				BF54E5171CCA09A800E63DD0 /* 5.png in Resources */,
+				BF54E52E1CCA09A800E63DD0 /* 更新标记@2x.png in Resources */,
+				BF54E53C1CCA09A800E63DD0 /* shop_light.png in Resources */,
+				BF54E5361CCA09A800E63DD0 /* icon.png in Resources */,
+				BF54E5191CCA09A800E63DD0 /* 7.png in Resources */,
+				BF54E51B1CCA09A800E63DD0 /* 9.png in Resources */,
+				BF54E51F1CCA09A800E63DD0 /* 表横条.png in Resources */,
+				BF54E52C1CCA09A800E63DD0 /* 对战背景05@2x.png in Resources */,
+				BF54E5281CCA09A800E63DD0 /* 第3季@2x.png in Resources */,
+				BF54E5221CCA09A800E63DD0 /* 表左边.png in Resources */,
+				BF54E52A1CCA09A800E63DD0 /* 第5季@2x.png in Resources */,
+				BF54E53F1CCA09A800E63DD0 /* suo_kai.png in Resources */,
+				BF54E5331CCA09A800E63DD0 /* 月份背景.jpg in Resources */,
+				BF54E5211CCA09A800E63DD0 /* 表右边@2x.png in Resources */,
+				BF54E4DA1CCA097A00E63DD0 /* Assets.xcassets in Resources */,
+				BF54E5291CCA09A800E63DD0 /* 第4季@2x.png in Resources */,
+				BF54E5371CCA09A800E63DD0 /* left_arrow.png in Resources */,
+				BF54E4D81CCA097A00E63DD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF54E4CB1CCA097A00E63DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54E5451CCA172500E63DD0 /* AnswerViewController.swift in Sources */,
+				BF54E4D51CCA097A00E63DD0 /* ViewController.swift in Sources */,
+				BF54E4D31CCA097A00E63DD0 /* AppDelegate.swift in Sources */,
+				BF54E5431CCA139700E63DD0 /* ChooseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF54E4D61CCA097A00E63DD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF54E4D71CCA097A00E63DD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF54E4DB1CCA097A00E63DD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF54E4DC1CCA097A00E63DD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF54E4DF1CCA097A00E63DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF54E4E01CCA097A00E63DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF54E4E21CCA097A00E63DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = warworld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LearnSwift.warworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF54E4E31CCA097A00E63DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = warworld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LearnSwift.warworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF54E4CA1CCA097A00E63DD0 /* Build configuration list for PBXProject "warworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF54E4DF1CCA097A00E63DD0 /* Debug */,
+				BF54E4E01CCA097A00E63DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF54E4E11CCA097A00E63DD0 /* Build configuration list for PBXNativeTarget "warworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF54E4E21CCA097A00E63DD0 /* Debug */,
+				BF54E4E31CCA097A00E63DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF54E4C71CCA097A00E63DD0 /* Project object */;
+}
