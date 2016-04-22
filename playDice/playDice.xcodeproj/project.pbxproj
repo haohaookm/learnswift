@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF145A0C1CC9194D00067DE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF145A0B1CC9194D00067DE0 /* AppDelegate.swift */; };
+		BF145A0E1CC9194D00067DE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF145A0D1CC9194D00067DE0 /* ViewController.swift */; };
+		BF145A111CC9194D00067DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF145A0F1CC9194D00067DE0 /* Main.storyboard */; };
+		BF145A131CC9194D00067DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF145A121CC9194D00067DE0 /* Assets.xcassets */; };
+		BF145A161CC9194D00067DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF145A141CC9194D00067DE0 /* LaunchScreen.storyboard */; };
+		BF145A231CC91E3000067DE0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF145A1D1CC91E3000067DE0 /* 1.jpg */; };
+		BF145A241CC91E3000067DE0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF145A1E1CC91E3000067DE0 /* 2.jpg */; };
+		BF145A251CC91E3000067DE0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF145A1F1CC91E3000067DE0 /* 3.jpg */; };
+		BF145A261CC91E3000067DE0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF145A201CC91E3000067DE0 /* 4.jpg */; };
+		BF145A271CC91E3000067DE0 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF145A211CC91E3000067DE0 /* 5.jpg */; };
+		BF145A281CC91E3000067DE0 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF145A221CC91E3000067DE0 /* 6.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF145A081CC9194D00067DE0 /* playDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF145A0B1CC9194D00067DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF145A0D1CC9194D00067DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF145A101CC9194D00067DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF145A121CC9194D00067DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF145A151CC9194D00067DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF145A171CC9194D00067DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF145A1D1CC91E3000067DE0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../../Downloads/1.jpg; sourceTree = "<group>"; };
+		BF145A1E1CC91E3000067DE0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../../Downloads/2.jpg; sourceTree = "<group>"; };
+		BF145A1F1CC91E3000067DE0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../../Downloads/3.jpg; sourceTree = "<group>"; };
+		BF145A201CC91E3000067DE0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../../Downloads/4.jpg; sourceTree = "<group>"; };
+		BF145A211CC91E3000067DE0 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../../Downloads/5.jpg; sourceTree = "<group>"; };
+		BF145A221CC91E3000067DE0 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = ../../../../../Downloads/6.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF145A051CC9194D00067DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1459FF1CC9194D00067DE0 = {
+			isa = PBXGroup;
+			children = (
+				BF145A0A1CC9194D00067DE0 /* playDice */,
+				BF145A091CC9194D00067DE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF145A091CC9194D00067DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF145A081CC9194D00067DE0 /* playDice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF145A0A1CC9194D00067DE0 /* playDice */ = {
+			isa = PBXGroup;
+			children = (
+				BF145A0B1CC9194D00067DE0 /* AppDelegate.swift */,
+				BF145A0D1CC9194D00067DE0 /* ViewController.swift */,
+				BF145A0F1CC9194D00067DE0 /* Main.storyboard */,
+				BF145A1D1CC91E3000067DE0 /* 1.jpg */,
+				BF145A1E1CC91E3000067DE0 /* 2.jpg */,
+				BF145A1F1CC91E3000067DE0 /* 3.jpg */,
+				BF145A201CC91E3000067DE0 /* 4.jpg */,
+				BF145A211CC91E3000067DE0 /* 5.jpg */,
+				BF145A221CC91E3000067DE0 /* 6.jpg */,
+				BF145A121CC9194D00067DE0 /* Assets.xcassets */,
+				BF145A141CC9194D00067DE0 /* LaunchScreen.storyboard */,
+				BF145A171CC9194D00067DE0 /* Info.plist */,
+			);
+			path = playDice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF145A071CC9194D00067DE0 /* playDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF145A1A1CC9194D00067DE0 /* Build configuration list for PBXNativeTarget "playDice" */;
+			buildPhases = (
+				BF145A041CC9194D00067DE0 /* Sources */,
+				BF145A051CC9194D00067DE0 /* Frameworks */,
+				BF145A061CC9194D00067DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = playDice;
+			productName = playDice;
+			productReference = BF145A081CC9194D00067DE0 /* playDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF145A001CC9194D00067DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tracy;
+				TargetAttributes = {
+					BF145A071CC9194D00067DE0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BF145A031CC9194D00067DE0 /* Build configuration list for PBXProject "playDice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1459FF1CC9194D00067DE0;
+			productRefGroup = BF145A091CC9194D00067DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF145A071CC9194D00067DE0 /* playDice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF145A061CC9194D00067DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF145A281CC91E3000067DE0 /* 6.jpg in Resources */,
+				BF145A161CC9194D00067DE0 /* LaunchScreen.storyboard in Resources */,
+				BF145A271CC91E3000067DE0 /* 5.jpg in Resources */,
+				BF145A261CC91E3000067DE0 /* 4.jpg in Resources */,
+				BF145A231CC91E3000067DE0 /* 1.jpg in Resources */,
+				BF145A241CC91E3000067DE0 /* 2.jpg in Resources */,
+				BF145A251CC91E3000067DE0 /* 3.jpg in Resources */,
+				BF145A131CC9194D00067DE0 /* Assets.xcassets in Resources */,
+				BF145A111CC9194D00067DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF145A041CC9194D00067DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF145A0E1CC9194D00067DE0 /* ViewController.swift in Sources */,
+				BF145A0C1CC9194D00067DE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF145A0F1CC9194D00067DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF145A101CC9194D00067DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF145A141CC9194D00067DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF145A151CC9194D00067DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF145A181CC9194D00067DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF145A191CC9194D00067DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF145A1B1CC9194D00067DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LearnSwift.playDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF145A1C1CC9194D00067DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = playDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LearnSwift.playDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF145A031CC9194D00067DE0 /* Build configuration list for PBXProject "playDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF145A181CC9194D00067DE0 /* Debug */,
+				BF145A191CC9194D00067DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF145A1A1CC9194D00067DE0 /* Build configuration list for PBXNativeTarget "playDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF145A1B1CC9194D00067DE0 /* Debug */,
+				BF145A1C1CC9194D00067DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF145A001CC9194D00067DE0 /* Project object */;
+}
