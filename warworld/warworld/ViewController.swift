@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("changeLight"), userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.changeLight), userInfo: nil, repeats: true)
         
         
         

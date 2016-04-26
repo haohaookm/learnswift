@@ -11,9 +11,19 @@ import UIKit
 
 class AnswerViewController: UIViewController {
     
-    
-    
+    let questionLabel = UILabel()
+    let buttonA = UIButton()
+    let buttonB = UIButton()
+    let buttonC = UIButton()
+    let buttonD = UIButton()
+    let buttonALabel = UILabel()
+    let buttonBLabel = UILabel()
+    let buttonCLabel = UILabel()
+    let buttonDLabel = UILabel()
+    let timeLabel = UILabel()
 
+    var questionUpdateTimer: NSTimer?
+    
     //questions
     let allQuestions = [["鱼为什么不能吃？","A 鳄鱼","B 鲨鱼","C 木鱼","D 飞鱼"],["什么东西越洗越脏？","A 抹布","B 衣服","C 白菜","D 大狗"]]
     let rightAnswer = [3,1]
@@ -35,66 +45,66 @@ class AnswerViewController: UIViewController {
         backButton.setImage(UIImage(named: "left_arrow.png"), forState: .Normal)
         self.view.addSubview(backButton)
         
-        backButton.addTarget(self, action: Selector("turnBack"), forControlEvents: .TouchUpInside)
+        backButton.addTarget(self, action: #selector(AnswerViewController.turnBack), forControlEvents: .TouchUpInside)
         
         //question label
-        let questionLabel = UILabel()
+        
         questionLabel.frame = CGRectMake(170, 120, 320, 80)
         questionLabel.text = allQuestions[currentQuestion][0]
         questionLabel.textAlignment = .Center
         self.view.addSubview(questionLabel)
         
         //buttonA,B,C,D
-        let buttonA = UIButton()
+        
         buttonA.frame = CGRectMake(100, 250, 220, 40)
         buttonA.setImage(UIImage(named: "平时状态@2x"), forState: .Normal)
         self.view.addSubview(buttonA)
-        buttonA.addTarget(self, action: Selector("judgeResult:"), forControlEvents: .TouchUpInside)
+        buttonA.addTarget(self, action: #selector(AnswerViewController.judgeResult(_:)), forControlEvents: .TouchUpInside)
         buttonA.tag = 1
         
-        let buttonALabel = UILabel()
+        
         buttonALabel.frame = CGRectMake(100, 250, 220, 40)
         buttonALabel.text = allQuestions[currentQuestion][1]
         buttonALabel.textColor = UIColor.whiteColor()
         buttonALabel.textAlignment = .Center
         self.view.addSubview(buttonALabel)
         
-        let buttonB = UIButton()
+        
         buttonB.frame = CGRectMake(300, 250, 220, 40)
         buttonB.setImage(UIImage(named: "平时状态@2x"), forState: .Normal)
         self.view.addSubview(buttonB)
-        buttonB.addTarget(self, action: Selector("judgeResult:"), forControlEvents: .TouchUpInside)
+        buttonB.addTarget(self, action: #selector(AnswerViewController.judgeResult(_:)), forControlEvents: .TouchUpInside)
         buttonB.tag = 2
         
-        let buttonBLabel = UILabel()
+        
         buttonBLabel.frame = CGRectMake(300, 250, 220, 40)
         buttonBLabel.text = allQuestions[currentQuestion][2]
         buttonBLabel.textColor = UIColor.whiteColor()
         buttonBLabel.textAlignment = .Center
         self.view.addSubview(buttonBLabel)
         
-        let buttonC = UIButton()
+        
         buttonC.frame = CGRectMake(100, 300, 220, 40)
         buttonC.setImage(UIImage(named: "平时状态@2x"), forState: .Normal)
         self.view.addSubview(buttonC)
-        buttonC.addTarget(self, action: Selector("judgeResult:"), forControlEvents: .TouchUpInside)
+        buttonC.addTarget(self, action: #selector(AnswerViewController.judgeResult(_:)), forControlEvents: .TouchUpInside)
         buttonC.tag = 3
         
-        let buttonCLabel = UILabel()
+        
         buttonCLabel.frame = CGRectMake(100, 300, 220, 40)
         buttonCLabel.text = allQuestions[currentQuestion][3]
         buttonCLabel.textColor = UIColor.whiteColor()
         buttonCLabel.textAlignment = .Center
         self.view.addSubview(buttonCLabel)
         
-        let buttonD = UIButton()
+        
         buttonD.frame = CGRectMake(300, 300, 220, 40)
         buttonD.setImage(UIImage(named: "平时状态@2x"), forState: .Normal)
         self.view.addSubview(buttonD)
-        buttonD.addTarget(self, action: Selector("judgeResult:"), forControlEvents: .TouchUpInside)
+        buttonD.addTarget(self, action: #selector(AnswerViewController.judgeResult(_:)), forControlEvents: .TouchUpInside)
         buttonD.tag = 4
         
-        let buttonDLabel = UILabel()
+        
         buttonDLabel.frame = CGRectMake(300, 300, 220, 40)
         buttonDLabel.text = allQuestions[currentQuestion][4]
         buttonDLabel.textColor = UIColor.whiteColor()
@@ -102,7 +112,7 @@ class AnswerViewController: UIViewController {
         self.view.addSubview(buttonDLabel)
         
         //timetracker label
-        let timeLabel = UILabel()
+        
         timeLabel.frame = CGRectMake(50, 30, 80, 30)
         timeLabel.text = "00:00"
         timeLabel.backgroundColor = UIColor.blueColor()
@@ -120,6 +130,39 @@ class AnswerViewController: UIViewController {
         else {
             sender.setImage(UIImage(named: "答错@2x.png"), forState: .Normal)
         }
+        buttonD.enabled = false
+        buttonC.enabled = false
+        buttonB.enabled = false
+        buttonA.enabled = false
+        
+        //pass 1 second, renew the question
+        questionUpdateTimer?.invalidate()
+        questionUpdateTimer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(AnswerViewController.updateQuestion), userInfo: sender, repeats: false)
+    }
+    
+    func updateQuestion() {
+        currentQuestion += 1
+        
+        if currentQuestion >= 2 {
+            //jump to resultView
+            let jvc = ResultViewController()
+            presentViewController(jvc, animated: true, completion: nil)
+            return
+        }
+        
+        buttonD.enabled = true
+        buttonC.enabled = true
+        buttonB.enabled = true
+        buttonA.enabled = true
+        
+        questionLabel.text = allQuestions[currentQuestion][0]
+        buttonALabel.text = allQuestions[currentQuestion][1]
+        buttonBLabel.text = allQuestions[currentQuestion][2]
+        buttonCLabel.text = allQuestions[currentQuestion][3]
+        buttonDLabel.text = allQuestions[currentQuestion][4]
+        
+        let sender = questionUpdateTimer?.userInfo as! UIButton
+        sender.setImage(UIImage(named: "平时状态@2x.png"), forState: .Normal)
         
     }
     

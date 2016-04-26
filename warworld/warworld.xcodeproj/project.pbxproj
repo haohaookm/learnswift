@@ -61,6 +61,7 @@
 		BF54E5411CCA09A800E63DD0 /* tiku.png in Resources */ = {isa = PBXBuildFile; fileRef = BF54E5121CCA09A800E63DD0 /* tiku.png */; };
 		BF54E5431CCA139700E63DD0 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E5421CCA139700E63DD0 /* ChooseViewController.swift */; };
 		BF54E5451CCA172500E63DD0 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54E5441CCA172500E63DD0 /* AnswerViewController.swift */; };
+		BF62499E1CCE1F510055BA3F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62499D1CCE1F510055BA3F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +121,7 @@
 		BF54E5121CCA09A800E63DD0 /* tiku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiku.png; path = ../../../../../Downloads/warworld/warworld/tiku.png; sourceTree = "<group>"; };
 		BF54E5421CCA139700E63DD0 /* ChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		BF54E5441CCA172500E63DD0 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		BF62499D1CCE1F510055BA3F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				BF54E4D41CCA097A00E63DD0 /* ViewController.swift */,
 				BF54E5421CCA139700E63DD0 /* ChooseViewController.swift */,
 				BF54E5441CCA172500E63DD0 /* AnswerViewController.swift */,
+				BF62499D1CCE1F510055BA3F /* ResultViewController.swift */,
 				BF54E4D61CCA097A00E63DD0 /* Main.storyboard */,
 				BF54E4D91CCA097A00E63DD0 /* Assets.xcassets */,
 				BF54E4E41CCA09A800E63DD0 /* 1.png */,
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF62499E1CCE1F510055BA3F /* ResultViewController.swift in Sources */,
 				BF54E5451CCA172500E63DD0 /* AnswerViewController.swift in Sources */,
 				BF54E4D51CCA097A00E63DD0 /* ViewController.swift in Sources */,
 				BF54E4D31CCA097A00E63DD0 /* AppDelegate.swift in Sources */,
@@ -482,6 +486,7 @@
 				BF54E4E31CCA097A00E63DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
